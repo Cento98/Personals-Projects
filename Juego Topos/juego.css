@@ -1,0 +1,148 @@
+@font-face {
+    font-family:'SpaceInvaders';
+    src:url('Space-Invaders.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@keyframes estart {
+    from { transform: none; }
+    50% { transform: scale(1.15); }
+    to { transform: none; }
+}
+
+@keyframes opacidad {
+    0% {opacity: 0%;}
+    30%{opacity: 30%;}
+    50% {opacity: 50%;}
+    80% {opacity: 80%;}
+    to {opacity: 100%;}
+}
+
+body{
+    background-color: black;
+}
+#fondo{
+    width: 1250px;
+    height: 650px;
+    padding-top:100px;
+    padding-left: 630px; 
+}
+#juego{
+    width: 600px;
+    height: 650px;
+    border-radius: 20px;
+    margin-bottom: 100px;
+    
+}
+
+.cuadrado{
+    border: solid black 1px;
+    width: 210px;
+    height: 210px;
+    border-radius: 20px;
+    margin: 40px;
+    margin-top: 60px;
+}
+
+.ralph{
+     width: 150px;
+     height: 130px;
+     border-radius: 70px;
+     margin-top: 38px;
+     margin-left:30px;
+     visibility: hidden;
+}
+
+#uno{
+    background-color:blue;
+    display: block;
+    float: left;
+    
+}
+
+#dos{
+    background-color: green;
+    display: block;
+    float: left;
+    
+}
+
+#tres{
+    background-color:purple;
+    display: block;
+    float: left;
+}
+
+#cuatro{
+    background-color:red;
+    display: block;
+    float: left;
+    
+}
+
+#video_background {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+}
+
+.texto1{
+    color: yellow;
+    font-size: 150px;
+    font-family: SpaceInvaders;
+    position: absolute;
+    right: 20%;
+    text-shadow: 2px 2px black;
+}
+
+.texto2{
+    color: yellow;
+    font-size: 100px;
+    font-family: SpaceInvaders;
+    position: absolute;
+    bottom: 20%;
+    right: 40%;
+    animation: estart 3s infinite;
+    text-shadow: 2px 2px 5px;
+}
+
+#cuadrito{
+    width:50px;
+    padding:15px;
+    margin:00px auto;
+    font-weight: bold;
+  }
+
+  #contador{
+    font-size: 50px;
+    font-weight: bold;
+    color: yellow;
+  }
+
+  .gameov{
+    color: white;
+    font-size: 200px;
+    position: absolute;
+    right: 16%;
+    font-family: SpaceInvaders;
+    animation: opacidad 5s;
+  }
+
+  .puntu{
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    bottom: 30%;
+    font-family: SpaceInvaders;
+    right: 50%;
+    animation: opacidad 5s;
+  }
+
+ 
