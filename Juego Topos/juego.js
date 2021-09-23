@@ -15,8 +15,8 @@ function inicio(){
     juego();
 }
 window.onload=function(){
-
-    if(location.href=="C:/Users/cento/OneDrive/Desktop/1º DAM/Lenguaje de marcas/proyecto/juego.html"){
+    var strings = location.href.split("/");
+    if(strings[strings.length-1]=="juego.html"){
         juego();
     }
 
