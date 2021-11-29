@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">LayoutInterfaces</string>
+    <string name="oscuro">Oscuro</string>
+    <string name="claro">Claro</string>
+    <string name="prefe">Elige tus preferencias:</string>
+    <string name="back">Backend</string>
+    <string name="front">Frontend</string>
+    <string name="full">FullStack</string>
+    <string name="database">Databases</string>
+    <string name="java">Java</string>
+    <string name="type">TypeScript</string>
+    <string name="phyton">Phyton</string>
+    <string name="php">PHP</string>
+
+</resources>
